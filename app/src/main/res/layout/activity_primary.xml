@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_primary"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="jack.ultrajack.jac.healthwatcher.Primary"
+    android:background="@drawable/pp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:weightSum="1">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="279dp"
+        android:layout_height="109dp"
+        app:srcCompat="@mipmap/logo"
+        android:layout_weight="0.19" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <ImageButton
+        android:id="@+id/HR"
+        android:layout_width="348dp"
+        android:layout_height="137dp"
+        android:background="@android:color/transparent"
+        app:srcCompat="@mipmap/hr127" />
+
+    <ImageButton
+        android:id="@+id/BP"
+        android:layout_width="260dp"
+        android:layout_height="75dp"
+        android:layout_weight="0.26"
+        android:background="@android:color/transparent"
+        app:srcCompat="@mipmap/bp127" />
+
+    <ImageButton
+        android:id="@+id/About"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="right"
+        android:background="@android:color/transparent"
+        android:scaleType="fitEnd"
+        app:srcCompat="@mipmap/ab" />
+
+
+</LinearLayout>
